@@ -1,6 +1,6 @@
 const axios = require('axios');
 module.exports.config = {
-  name: 'ai',
+  name: 'chesca',
   version: '1.0.0',
   role: 0,
   hasPrefix: false,
@@ -17,7 +17,7 @@ module.exports.run = async function({
 }) {
   const input = args.join(' ');
   if (!input) {
-    api.sendMessage(`𝑯𝑬𝑳𝑳𝑶 𝑰𝑴 𝑽𝑰𝑵𝑪𝑬𝑵𝑻 𝑨𝑰 ✨ 
+    api.sendMessage(`🔎Hello botscope Ai
 
 ━━━━━━━━━━━━━━━
 
