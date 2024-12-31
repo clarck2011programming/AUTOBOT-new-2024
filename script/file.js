@@ -7,7 +7,7 @@ module.exports.config = {
 		cooldown: 0,
 		hasPrefix: false,
 		usage: "",
-		role: 2,
+		role: 1,
 };
 
 module.exports.run = async function ({ message, args, api, event }) {
